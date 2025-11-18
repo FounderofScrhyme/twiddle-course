@@ -4,6 +4,10 @@ import { ClerkProvider } from "@clerk/nextjs";
 
 import "../globals.css";
 import { currentUser } from "@clerk/nextjs/server";
+import TopBar from "@/components/shared/TopBar";
+import LeftSideBar from "@/components/shared/LeftSideBar";
+import RightSideBar from "@/components/shared/RightSideBar";
+import BottomBar from "@/components/shared/BottomBar";
 
 export const metadata: Metadata = {
   title: "Twiddle",
