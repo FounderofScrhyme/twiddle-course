@@ -62,4 +62,5 @@ export async function POST(req: Request) {
       image: user.image_url || "",
     });
   }
+  return new Response("", { status: 200 });
 }
